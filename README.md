@@ -13,7 +13,7 @@
     ·
     <a href="https://github.com/CaaioSB/react-boilerplate/issues/new">Request a feature</a>
     ·
-    <a href="https://github.com/CaaioSB/react-boilerplate/issues/new">Collaborate</a>
+    <a href="https://github.com/CaaioSB/react-boilerplate/compare">Collaborate</a>
   </p>
 </p>
 
