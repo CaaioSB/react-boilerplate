@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react';
-import App from './App';
+import { render } from '@testing-library/react'
+import App from './App'
 
 test('renders empty screen', () => {
-  const { container } = render(<App />);
+  const { container } = render(<App />)
 
-  expect(container.innerHTML).toBe('<div></div>');
-});
+  expect(container.innerHTML).toBe('<div></div>')
+})
