@@ -29,7 +29,7 @@ Below there are some tips to be able to use the boilerplate, if you have doubts,
 A nice way to push your changes to the repository is using commitzen, it's very simple.
 
 1. After making your changes add them to the changes to be committed using "`git add <file>...`".
-2. Use `yarn commit`, `npx commit` ou `npm commit` on terminal to enjoy commitzen.
+2. Use `yarn commit`, `npx commit` or `npm commit` on terminal to enjoy commitzen.
 3. Follow the steps provided by cz-cli.
 4. Run `git push <remote> <branch>` to send your changes to repository.
 5. Done 🎉
