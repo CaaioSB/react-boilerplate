@@ -17,15 +17,52 @@
   </p>
 </p>
 
-## Summary
+# Summary
 
-* [Documentation](#documentation)
-  * [How to create commits](#how-to-create-commits)
+- [Documentation](#documentation)
+  - [How to create commits](#how-to-create-commits)
 
-## Documentation
+<br />
+
+# Documentation
+
 Below there are some tips to be able to use the boilerplate, if you have doubts, create an issue with the label `question`.
 
-### How to create commits
+<br />
+
+## How to use root import
+
+A very simple way to import your components is not putting "../../../", the root import simplifies your code.
+
+Assuming the following structure:
+
+```javascript
+├── /src
+|   ├── /components
+|   |    ├── /<ButtonComponent>
+|   |    |    ├── <Button>.js
+|   |    |    ├── index.js
+|   ├── /helpers
+|   |    ├── /<constants>.js // export const [...]
+|   |    ├── index.js // export * from <constants>.js
+
+```To use the ButtonComponent in any local of your project, just use the following:
+
+```javascript
+import React from 'react'
+
+import Button from 'components/ButtonComponent'
+import { constants } from 'helpers'
+
+// [...]
+```
+
+And congrats, you are using root import in your project.
+
+<br />
+
+## How to create commits
+
 A nice way to push your changes to the repository is using commitzen, it's very simple.
 
 1. After making your changes add them to the changes to be committed using "`git add <file>...`".
