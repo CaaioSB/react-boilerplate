@@ -36,7 +36,7 @@ A very simple way to import your components is not putting "../../../", the root
 
 Assuming the following structure:
 
-```javascript
+```
 ├── /src
 |   ├── /components
 |   |    ├── /<ButtonComponent>
