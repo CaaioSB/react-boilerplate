@@ -46,7 +46,8 @@ Assuming the following structure:
 |   |    ├── /<constants>.js // export const [...]
 |   |    ├── index.js // export * from <constants>.js
 
-```To use the ButtonComponent in any local of your project, just use the following:
+```
+To use the ButtonComponent in any local of your project, just use the following:
 
 ```javascript
 import React from 'react'
