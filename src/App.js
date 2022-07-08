@@ -1,5 +1,7 @@
+import Button from '@mui/material/Button'
+
 function App() {
-  return <div></div>
+  return <Button variant='contained'>Hello World</Button>
 }
 
 export default App

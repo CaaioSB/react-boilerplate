@@ -1,8 +1,10 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import App from './App'
 
-test('renders empty screen', () => {
-  const { container } = render(<App />)
+render(<App />)
 
-  expect(container.innerHTML).toBe('<div></div>')
+test('render a button with Hello World text', () => {
+  const button = screen.getByRole('button')
+
+  expect(button).toHaveTextContent('Hello World')
 })
