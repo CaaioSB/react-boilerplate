@@ -1,4 +1,4 @@
-import Button from '@mui/material/Button'
+import Button from 'components/Button'
 
 function App() {
   return <Button variant='contained'>Hello World</Button>
