@@ -74,6 +74,10 @@
   },
   "jest": {
     "verbose": true,
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "rootDir": "src/",
+    "modulePaths": [
+      "<rootDir>"
+    ]
   }
 }
