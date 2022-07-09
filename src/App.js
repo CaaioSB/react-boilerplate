@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button'
 import { ThemeProvider } from '@mui/material/styles'
+import Button from 'components/Button'
 
 import theme from 'themes'
 
