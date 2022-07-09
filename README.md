@@ -47,6 +47,7 @@ Assuming the following structure:
 |   |    ├── index.js // export * from <constants>.js
 
 ```
+
 To use the ButtonComponent in any local of your project, just use the following:
 
 ```javascript
