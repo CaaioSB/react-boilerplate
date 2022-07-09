@@ -1,10 +1,12 @@
-import { render, screen } from '@testing-library/react'
+import '@testing-library/jest-dom/extend-expect'
+
 import App from './App'
 
-render(<App />)
+import { render } from '@testing-library/react'
 
-test('render a button with Hello World text', () => {
-  const button = screen.getByRole('button')
+it('should render a button with Hello World text', () => {
+  const { getByRole } = render(<App />)
+  const button = getByRole('button')
 
   expect(button).toHaveTextContent('Hello World')
 })
