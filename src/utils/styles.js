@@ -21,13 +21,13 @@ const pxToRem = pixels => {
 const hexToRgb = hex => {
   const result = /^#?(?<r>[a-f\d]{2})(?<g>[a-f\d]{2})(?<b>[a-f\d]{2})$/i.exec(hex)
 
-  const r = parseInt(result?.groups?.r, 16)
-  const g = parseInt(result?.groups?.g, 16)
-  const b = parseInt(result?.groups?.b, 16)
+  const red = parseInt(result?.groups?.r, 16)
+  const green = parseInt(result?.groups?.g, 16)
+  const blue = parseInt(result?.groups?.b, 16)
 
-  const rgb = `rgb(${r}, ${g}, ${b})`
+  const rgb = `rgb(${red}, ${green}, ${blue})`
 
-  return { r, g, b, rgb }
+  return { red, green, blue, rgb }
 }
 
 export { pxToRem, hexToRgb }
