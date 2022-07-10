@@ -1,9 +1,9 @@
 import '@testing-library/jest-dom/extend-expect'
 
-import { render } from '@testing-library/react'
 import { hexToRgb } from 'utils/styles'
+import { render } from '@testing-library/react'
 
-import App from './App'
+import App from 'App.js'
 import theme from 'theme'
 
 it('should render a button with Hello World text', () => {
