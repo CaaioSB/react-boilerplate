@@ -1,5 +1,5 @@
-import { createTheme } from '@mui/material/styles'
 import { MuiButton } from 'overrides'
+import { createTheme } from '@mui/material/styles'
 
 import typography from 'theme/typography'
 
