@@ -19,11 +19,11 @@ const pxToRem = pixels => {
  * @returns {string} - Hex converted to `rgb`
  */
 const hexToRgb = hex => {
-  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  const result = /^#?(?<r>[a-f\d]{2})(?<g>[a-f\d]{2})(?<b>[a-f\d]{2})$/i.exec(hex)
 
-  const r = parseInt(result[1], 16)
-  const g = parseInt(result[2], 16)
-  const b = parseInt(result[3], 16)
+  const r = parseInt(result?.groups?.r, 16)
+  const g = parseInt(result?.groups?.g, 16)
+  const b = parseInt(result?.groups?.b, 16)
 
   const rgb = `rgb(${r}, ${g}, ${b})`
 

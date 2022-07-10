@@ -46,6 +46,7 @@
       "ignoreMemberSort": false,
       "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
       "allowSeparatedGroups": false
-  }]
+    }],
+    "prefer-named-capture-group": "error"
   }
 }
