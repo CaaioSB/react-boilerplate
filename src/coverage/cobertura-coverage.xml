@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="22" lines-covered="18" line-rate="0.8181" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1657436268029" complexity="0" version="0.1">
+<coverage lines-valid="23" lines-covered="19" line-rate="0.826" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1657437509594" complexity="0" version="0.1">
   <sources>
     <source>/opt/www/react-boilerplate</source>
   </sources>
@@ -31,14 +31,14 @@
         </class>
         <class name="mui-button.js" filename="src/overrides/mui-button.js" line-rate="0.4285" branch-rate="1">
           <methods>
-            <method name="(anonymous_0)" hits="1" signature="()V">
+            <method name="(anonymous_0)" hits="0" signature="()V">
               <lines>
-                <line number="29" hits="1"/>
+                <line number="29" hits="0"/>
               </lines>
             </method>
-            <method name="(anonymous_1)" hits="0" signature="()V">
+            <method name="(anonymous_1)" hits="1" signature="()V">
               <lines>
-                <line number="42" hits="0"/>
+                <line number="42" hits="1"/>
               </lines>
             </method>
             <method name="(anonymous_2)" hits="0" signature="()V">
@@ -60,8 +60,8 @@
           <lines>
             <line number="5" hits="1" branch="false"/>
             <line number="26" hits="1" branch="false"/>
-            <line number="29" hits="1" branch="false"/>
-            <line number="42" hits="0" branch="false"/>
+            <line number="29" hits="0" branch="false"/>
+            <line number="42" hits="1" branch="false"/>
             <line number="60" hits="0" branch="false"/>
             <line number="77" hits="0" branch="false"/>
             <line number="95" hits="0" branch="false"/>
@@ -76,6 +76,7 @@
           </methods>
           <lines>
             <line number="1" hits="1" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
           </lines>
         </class>
         <class name="constants.js" filename="src/theme/constants.js" line-rate="1" branch-rate="1">
@@ -112,9 +113,9 @@
       <classes>
         <class name="styles.js" filename="src/utils/styles.js" line-rate="1" branch-rate="1">
           <methods>
-            <method name="(anonymous_0)" hits="20" signature="()V">
+            <method name="(anonymous_0)" hits="21" signature="()V">
               <lines>
-                <line number="9" hits="20"/>
+                <line number="9" hits="21"/>
               </lines>
             </method>
             <method name="(anonymous_1)" hits="1" signature="()V">
@@ -125,7 +126,7 @@
           </methods>
           <lines>
             <line number="9" hits="1" branch="false"/>
-            <line number="10" hits="20" branch="false"/>
+            <line number="10" hits="21" branch="false"/>
             <line number="21" hits="1" branch="false"/>
             <line number="22" hits="1" branch="false"/>
             <line number="24" hits="1" branch="false"/>

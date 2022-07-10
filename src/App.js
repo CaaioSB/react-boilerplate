@@ -10,7 +10,9 @@ import theme from 'theme'
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Button>Hello World</Button>
+      <Button variant='outlined' size='small'>
+        Hello World
+      </Button>
     </ThemeProvider>
   )
 }

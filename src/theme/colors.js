@@ -13,6 +13,11 @@ export const smoke = {
   900: '#2E3545'
 }
 
+export const root = {
+  0: '#FFFFFF'
+}
+
 export default {
+  root,
   smoke
 }
