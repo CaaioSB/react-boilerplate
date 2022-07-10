@@ -1,5 +1,5 @@
-import { pxToRem } from 'utils/styles'
 import { BUTTON_BORDER_RADIUS } from 'theme/constants'
+import { pxToRem } from 'utils/styles'
 import { smoke } from 'theme/colors'
 
 const size = [
