@@ -1,18 +1,16 @@
 import { ThemeProvider } from '@mui/material/styles'
-import Button from 'components/Button'
+import { Button } from '@mui/material'
 
-import theme from 'themes'
+import theme from 'theme'
 
 /**
  * Default component that renders the first page.
- * @return The button with Hello World text.
+ * @return The button with Botão text.
  */
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Button variant='contained' color='primary'>
-        Hello World
-      </Button>
+      <Button>Hello World</Button>
     </ThemeProvider>
   )
 }
