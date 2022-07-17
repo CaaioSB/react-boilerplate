@@ -1,3 +1,12 @@
+export const blue = {
+  50: '#e3fafc',
+  100: '#c5f7fa',
+  300: '#9ae7f4',
+  500: '#67c7f3',
+  700: '#33b2e5',
+  900: '#0099cc'
+}
+
 export const smoke = {
   10: '#FCFDFD',
   25: '#F8FAFC',
@@ -18,6 +27,7 @@ export const root = {
 }
 
 export default {
-  root,
-  smoke
+  blue,
+  smoke,
+  root
 }

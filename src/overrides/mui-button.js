@@ -27,6 +27,8 @@ const variant = [
   {
     props: { variant: 'contained' },
     style: ({ theme }) => ({
+      backgroundColor: theme.palette.primary.main,
+
       '&:hover': {
         backgroundColor: theme.palette.primary.dark
       },

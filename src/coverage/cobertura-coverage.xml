@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="23" lines-covered="19" line-rate="0.826" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1657437509594" complexity="0" version="0.1">
+<coverage lines-valid="23" lines-covered="22" line-rate="0.9565" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1658090023619" complexity="0" version="0.1">
   <sources>
     <source>/opt/www/react-boilerplate</source>
   </sources>
@@ -21,7 +21,7 @@
         </class>
       </classes>
     </package>
-    <package name="src.overrides" line-rate="0.4285" branch-rate="1">
+    <package name="src.overrides" line-rate="0.8571" branch-rate="1">
       <classes>
         <class name="index.js" filename="src/overrides/index.js" line-rate="1" branch-rate="1">
           <methods>
@@ -29,42 +29,42 @@
           <lines>
           </lines>
         </class>
-        <class name="mui-button.js" filename="src/overrides/mui-button.js" line-rate="0.4285" branch-rate="1">
+        <class name="mui-button.js" filename="src/overrides/mui-button.js" line-rate="0.8571" branch-rate="1">
           <methods>
-            <method name="(anonymous_0)" hits="0" signature="()V">
+            <method name="(anonymous_0)" hits="3" signature="()V">
               <lines>
-                <line number="29" hits="0"/>
+                <line number="29" hits="3"/>
               </lines>
             </method>
-            <method name="(anonymous_1)" hits="1" signature="()V">
+            <method name="(anonymous_1)" hits="2" signature="()V">
               <lines>
-                <line number="42" hits="1"/>
+                <line number="44" hits="2"/>
               </lines>
             </method>
-            <method name="(anonymous_2)" hits="0" signature="()V">
+            <method name="(anonymous_2)" hits="1" signature="()V">
               <lines>
-                <line number="60" hits="0"/>
+                <line number="62" hits="1"/>
               </lines>
             </method>
-            <method name="(anonymous_3)" hits="0" signature="()V">
+            <method name="(anonymous_3)" hits="1" signature="()V">
               <lines>
-                <line number="77" hits="0"/>
+                <line number="79" hits="1"/>
               </lines>
             </method>
             <method name="(anonymous_4)" hits="0" signature="()V">
               <lines>
-                <line number="95" hits="0"/>
+                <line number="97" hits="0"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="1" branch="false"/>
-            <line number="26" hits="1" branch="false"/>
-            <line number="29" hits="0" branch="false"/>
-            <line number="42" hits="1" branch="false"/>
-            <line number="60" hits="0" branch="false"/>
-            <line number="77" hits="0" branch="false"/>
-            <line number="95" hits="0" branch="false"/>
+            <line number="5" hits="2" branch="false"/>
+            <line number="26" hits="2" branch="false"/>
+            <line number="29" hits="3" branch="false"/>
+            <line number="44" hits="2" branch="false"/>
+            <line number="62" hits="1" branch="false"/>
+            <line number="79" hits="1" branch="false"/>
+            <line number="97" hits="0" branch="false"/>
           </lines>
         </class>
       </classes>
@@ -75,19 +75,26 @@
           <methods>
           </methods>
           <lines>
-            <line number="1" hits="1" branch="false"/>
-            <line number="16" hits="1" branch="false"/>
+            <line number="1" hits="2" branch="false"/>
+            <line number="10" hits="2" branch="false"/>
+            <line number="25" hits="2" branch="false"/>
           </lines>
         </class>
         <class name="constants.js" filename="src/theme/constants.js" line-rate="1" branch-rate="1">
           <methods>
           </methods>
           <lines>
-            <line number="1" hits="1" branch="false"/>
-            <line number="2" hits="1" branch="false"/>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="2" branch="false"/>
           </lines>
         </class>
         <class name="index.js" filename="src/theme/index.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+          </lines>
+        </class>
+        <class name="palette.js" filename="src/theme/palette.js" line-rate="1" branch-rate="1">
           <methods>
           </methods>
           <lines>
@@ -97,14 +104,13 @@
           <methods>
           </methods>
           <lines>
-            <line number="6" hits="1" branch="false"/>
+            <line number="7" hits="2" branch="false"/>
           </lines>
         </class>
         <class name="typography.js" filename="src/theme/typography.js" line-rate="1" branch-rate="1">
           <methods>
           </methods>
           <lines>
-            <line number="3" hits="1" branch="false"/>
           </lines>
         </class>
       </classes>
@@ -113,9 +119,9 @@
       <classes>
         <class name="styles.js" filename="src/utils/styles.js" line-rate="1" branch-rate="1">
           <methods>
-            <method name="(anonymous_0)" hits="21" signature="()V">
+            <method name="(anonymous_0)" hits="43" signature="()V">
               <lines>
-                <line number="9" hits="21"/>
+                <line number="9" hits="43"/>
               </lines>
             </method>
             <method name="(anonymous_1)" hits="1" signature="()V">
@@ -125,9 +131,9 @@
             </method>
           </methods>
           <lines>
-            <line number="9" hits="1" branch="false"/>
-            <line number="10" hits="21" branch="false"/>
-            <line number="21" hits="1" branch="false"/>
+            <line number="9" hits="2" branch="false"/>
+            <line number="10" hits="43" branch="false"/>
+            <line number="21" hits="2" branch="false"/>
             <line number="22" hits="1" branch="false"/>
             <line number="24" hits="1" branch="false"/>
             <line number="25" hits="1" branch="false"/>
