@@ -19,7 +19,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let containedButton = screen.getByTestId('button')
+    const containedButton = screen.getByTestId('button')
 
     expect(containedButton).toHaveClass('MuiButton-contained')
     expect(containedButton).toHaveStyle(`background-color: ${colors.blue[500]}`)
@@ -34,7 +34,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let containedHoveredButton = screen.getByTestId('button')
+    const containedHoveredButton = screen.getByTestId('button')
     fireEvent.mouseEnter(containedHoveredButton)
 
     // TODO: Fix hover button style does not working on test
@@ -54,7 +54,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let outlinedButton = screen.getByTestId('button')
+    const outlinedButton = screen.getByTestId('button')
 
     expect(outlinedButton).toHaveClass('MuiButton-outlined')
     expect(outlinedButton).toHaveStyle(`background-color: ${colors.root[0]}`)
@@ -75,7 +75,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let blankButton = screen.getByTestId('button')
+    const blankButton = screen.getByTestId('button')
 
     expect(blankButton).toHaveClass('MuiButton-blank')
     expect(blankButton).toHaveStyle(`background-color: ${colors.root[0]}`)
@@ -91,7 +91,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let inversedOutlinedButton = screen.getByTestId('button')
+    const inversedOutlinedButton = screen.getByTestId('button')
 
     expect(inversedOutlinedButton).toHaveClass('MuiButton-inverse-outlined')
     expect(inversedOutlinedButton).toHaveStyle('background-color: transparent')
@@ -113,7 +113,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let inversedBlankButton = screen.getByTestId('button')
+    const inversedBlankButton = screen.getByTestId('button')
 
     expect(inversedBlankButton).toHaveClass('MuiButton-inversed-blank')
     expect(inversedBlankButton).toHaveStyle('background-color: transparent')
@@ -131,7 +131,7 @@ describe('render a contained styled button', () => {
       { wrapper: Providers }
     )
 
-    let disabledButton = screen.getByTestId('button')
+    const disabledButton = screen.getByTestId('button')
 
     expect(disabledButton).toBeDisabled()
     expect(disabledButton).toHaveStyle(`background-color: ${colors.smoke[500]}`)
