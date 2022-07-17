@@ -6,7 +6,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import colors from 'theme/colors'
 import theme from 'theme'
 
-const Providers = ({ children }) => {
+function Providers({ children }) {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 

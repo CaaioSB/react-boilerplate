@@ -1,6 +1,6 @@
 import { pxToRem } from 'utils/styles'
 
-export default {
+export const typography = {
   fontFamily: '"Open Sans", sans-serif',
   fontWeightLight: 300,
   fontWeightRegular: 400,
@@ -71,4 +71,8 @@ export default {
     lineHeight: 1.5,
     fontWeight: 400
   }
+}
+
+export default {
+  typography
 }
